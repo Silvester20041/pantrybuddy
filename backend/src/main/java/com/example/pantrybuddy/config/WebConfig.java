@@ -17,7 +17,8 @@ public class WebConfig {
                     .allowedOrigins(
                         "http://localhost:5173",
                         "http://localhost:5174",
-                        "https://pantrybuddy-ni8s4lvab-silvesterdev.vercel.app"
+                        "https://pantrybuddy-ni8s4lvab-silvesterdev.vercel.app",
+                        "https://pantrybuddy-ochre.vercel.app"
                     )
                     .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
                     .allowedHeaders("*")
