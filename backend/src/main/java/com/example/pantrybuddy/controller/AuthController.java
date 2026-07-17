@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 import com.example.pantrybuddy.model.User;
 import com.example.pantrybuddy.service.UserService;
 
-@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {

@@ -19,10 +19,7 @@ import com.example.pantrybuddy.model.FoodItem;
 import com.example.pantrybuddy.repository.ItemRepository;
 import com.example.pantrybuddy.service.ai.OCRService;
 
-@CrossOrigin(origins = {
-	    "http://localhost:5173",
-	    "http://localhost:5174"
-	})@RestController
+@RestController
 @RequestMapping("/api/receipts")
 public class ReceiptUploadController {
 

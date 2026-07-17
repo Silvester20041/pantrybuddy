@@ -9,10 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 import java.util.List;
 
-@CrossOrigin(origins = {
-	    "http://localhost:5173",
-	    "http://localhost:5174"
-	})
 @RestController // Marks this as a web-handler
 @RequestMapping("/api/items") // The URL path
 public class ItemController {

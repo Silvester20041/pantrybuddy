@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 
-@CrossOrigin(origins = {
-	    "http://localhost:5173",
-	    "http://localhost:5174"
-	})@RestController
+@RestController
 @RequestMapping("/api/inventory")
 public class ImageUploadController {
 

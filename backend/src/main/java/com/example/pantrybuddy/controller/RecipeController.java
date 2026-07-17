@@ -12,10 +12,6 @@ import com.example.pantrybuddy.model.FoodItem;
 import com.example.pantrybuddy.repository.ItemRepository;
 
 
-@CrossOrigin(origins = {
-	    "http://localhost:5173",
-	    "http://localhost:5174"
-	})
 @RestController
 public class RecipeController {
 

@@ -12,10 +12,7 @@ import com.example.pantrybuddy.repository.ItemRepository;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = {
-	    "http://localhost:5173",
-	    "http://localhost:5174"
-	})@RestController
+@RestController
 public class DashboardController {
 
     @Autowired
