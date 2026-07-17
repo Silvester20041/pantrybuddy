@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
-import "../styles/Dashboard.css";
+import "../Styles/Dashboard.css";
 import CategoryChart from "../components/CategoryChart";
 
 function Dashboard() {
