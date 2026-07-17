@@ -6,8 +6,15 @@
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat&logo=vite&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat&logo=mysql&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://pantrybuddy-ni8s4lvab-silvesterdev.vercel.app)
 
 A full-stack web application that helps households manage their kitchen pantry, track food expiry dates, and reduce food waste.
+
+## Live Demo
+
+**Frontend:** [https://pantrybuddy-ni8s4lvab-silvesterdev.vercel.app](https://pantrybuddy-ni8s4lvab-silvesterdev.vercel.app)
+
+**Backend API:** [https://pantrybuddy-production.up.railway.app/api](https://pantrybuddy-production.up.railway.app/api)
 
 ---
 
