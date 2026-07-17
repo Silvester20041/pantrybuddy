@@ -1,17 +1,18 @@
-
 package com.example.pantrybuddy.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
+import java.util.Map;
 
-@CrossOrigin(origins = {
-	    "http://localhost:5173",
-	    "http://localhost:5174"
-	})@Controller
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class HomeController {
     @GetMapping("/")
-    public String home() {
-        return "forward:/index.html";
+    public Map<String, String> home() {
+        return Map.of(
+            "app", "Pantry Buddy API",
+            "status": "running",
+            "docs", "/api/dashboard"
+        );
     }
 }
